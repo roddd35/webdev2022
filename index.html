@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <title>Hello World</title>
     </head>
     <body>
+        
         <!-- MENU -->
-        <h1>Menu - Página Pessoal</h1> 
-        <ul>
-            <li>
-                <a href="#sobre">Sobre mim</a>
-            </li>
-            <li>
-                <a href="#aprendi">O que aprendi</a>
-            </li>
-        </ul>
-        <br>
+        <div class="container" id="comeco">
+            <div class="cartao">
+                <a href="#sobre"><img src="img/user.png" alt="" class="icon">
+                    <div class="inscontainer">
+                        <h4 class="subtitle"><b>Sobre mim</b></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="cartao">
+                <a href="#aprendi"><img src="img/book.png" alt="" class="icon">
+                    <div class="inscontainer">
+                        <h4 class="subtitle"><b>O que aprendi</b></h4>
+                    </div>
+                </a>
+            </div>    
+        
+            <div class="conteudo">
 
-        <!-- PRIMEIRA SESSÃO -->
-        <h2 id="sobre">Sobre mim</h2><br>
-        <img src="gatonike.jpg" width="15%">
-        <p>Meu nome é Rodrigo Micheassi</p>
-        <p>Tenho 19 anos e sou de Caieiras-SP</p>
-        <p>Gosto de basquete, tirar fotos, visitar exposições, moda, etcetc</p>
-        <br><br>
+                <!-- PRIMEIRA SESSÃO -->
+                <h2 id="sobre" class="secao">Sobre mim</h2>
+                <ul class="topicos">
+                    <li>Meu nome é Rodrigo Michelassi</li>
+                    <li>Tenho 19 anos e sou de Caieiras-SP</li>
+                    <li>Gosto de basquete, tirar fotos, visitar exposições, moda, etc.</li>
+                </ul>
 
-        <!-- SEGUNDA SESSÃO -->
-        <h2 id="aprendi">O que aprendi</h2>
-        <p>Na primeira aula foram vistos diversos tópicos, como:</p>
-        <ul>
-            <li>Diferença entre Web e Internet</li>
-            <li>Comandos básicos do HTML</li>
-            <li>Motivos de HTML não ser uma linguagem de programação</li>
-            <li>Formas de estruturar um código em HTML (tags, estrutura do codigo)</li>
-            <li>Uso básico do GitHub para envio de tarefas</li>
-            <li>Uso de Target que endereça links para outra página (ou a mesma)</li>
-        </ul>
+                <!-- SEGUNDA SESSÃO -->
+                <h2 id="aprendi" class="secao">O que aprendi</h2>
+                <p class="topicos"><b>Na primeira aula foram vistos diversos tópicos, como:</b></p>
+                <ul class="topicos">
+                    <li>Diferença entre Web e Internet</li>
+                    <li>Comandos básicos do HTML</li>
+                    <li>Motivos de HTML não ser uma linguagem de programação</li>
+                    <li>Formas de estruturar um código em HTML (tags, estrutura do codigo)</li>
+                    <li>Uso básico do GitHub para envio de tarefas</li>
+                    <li>Uso de Target que endereça links para outra página (ou a mesma)</li>
+                    <li>Uso básico do CSS e comandos de estilização</li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
