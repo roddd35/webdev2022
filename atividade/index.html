@@ -5,57 +5,83 @@
         <title>Hello World</title>
     </head>
     <body>
-        <!-- HEADER -->
-        <div class="header">
-            <div class="secao">
-                <button class="botao">
-                    <a href="#sobre"><li class="lista">Sobre mim</li></a>
-                </button>
-            </div>
-            <div class="secao">
-                <button class="botao">
-                    <a href="#aprendi"><li class="lista">O que aprendi</li></a>
-                </button>
-            </div>    
-        </div>
         <div class="container" id="comeco">
-            <!-- MENU -->
-            <div class="cartao">
-                <a href="#sobre"><img src="img/user.png" alt="" class="icon">
-                    <div class="inscontainer">
-                        <h4 class="subtitle"><b>Sobre mim</b></h4>
-                    </div>
-                </a>
+            <!-- HEADER -->
+            <div class="header">
+                <div class="secao">
+                    <button class="botao">
+                        <a href="#sobre"><li class="lista">Sobre mim</li></a>
+                    </button>
+                    <button class="botao">
+                        <a href="#aprendi"><li class="lista">O que aprendi</li></a>
+                    </button>
+                </div>
             </div>
-            <div class="cartao">
-                <a href="#aprendi"><img src="img/book.png" alt="" class="icon">
-                    <div class="inscontainer">
-                        <h4 class="subtitle"><b>O que aprendi</b></h4>
-                    </div>
-                </a>
-            </div>    
-        
+            <!-- CORPO -->
             <div class="conteudo">
-                <!-- PRIMEIRA SESSÃO -->
-                <h2 id="sobre" class="secao">Sobre mim</h2>
-                <ul class="topicos">
-                    <li>Meu nome é Rodrigo Michelassi</li>
-                    <li>Tenho 19 anos e sou de Caieiras-SP</li>
-                    <li>Gosto de basquete, tirar fotos, visitar exposições, moda, etc.</li>
-                </ul>
+                <!-- lista de links -->
+                <div class="sidebar">
+                    <ul>
+                        <li><h2 class="topicos">Lista de Links</h2></li>
+                        <li>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=96129">Palestrinhas</a>
+                        </li>
+                        <li>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=97343">Introdução à Computação</a>
+                        </li>
+                        <li>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=98042">Vetores e Geometria Analítica</a>
+                        </li>
+                        <li>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=96094">Cálculo Diferencial e Integral</a>
+                        </li>
+                        <li>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=99177">Álgebra Booleana</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="corpo">
+                    <!-- CARDS -->
+                    <div class="menu">
+                        <div class="cartao">
+                            <a href="#sobre"><img src="img/user.png" alt="" class="icon">
+                                <div class="inscontainer">
+                                    <h4 class="subtitle"><b>Sobre mim</b></h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cartao">
+                            <a href="#aprendi"><img src="img/book.png" alt="" class="icon">
+                                <div class="inscontainer">
+                                    <h4 class="subtitle"><b>O que aprendi</b></h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>        
+                    <!-- CORPO -->
+                    <div class="barra">
+                        <!-- PRIMEIRA SESSÃO -->
+                        <h2 id="sobre" class="secaotxt">Sobre mim</h2>
+                        <ul class="topicos">
+                            <li>Meu nome é Rodrigo Michelassi</li>
+                            <li>Tenho 19 anos e sou de Caieiras-SP</li>
+                            <li>Gosto de basquete, tirar fotos, visitar exposições, moda, etc.</li>
+                        </ul>
 
-                <!-- SEGUNDA SESSÃO -->
-                <h2 id="aprendi" class="secao">O que aprendi</h2>
-                <p class="topicos"><b>Na primeira aula foram vistos diversos tópicos, como:</b></p>
-                <ul class="topicos">
-                    <li>Diferença entre Web e Internet</li>
-                    <li>Comandos básicos do HTML</li>
-                    <li>Motivos de HTML não ser uma linguagem de programação</li>
-                    <li>Formas de estruturar um código em HTML (tags, estrutura do codigo)</li>
-                    <li>Uso básico do GitHub para envio de tarefas</li>
-                    <li>Uso de Target que endereça links para outra página (ou a mesma)</li>
-                    <li>Uso básico do CSS e comandos de estilização</li>
-                </ul>
+                        <!-- SEGUNDA SESSÃO -->
+                        <h2 id="aprendi" class="secaotxt">O que aprendi</h2>
+                        <p class="topicos"><b>Na primeira aula foram vistos diversos tópicos, como:</b></p>
+                        <ul class="topicos">
+                            <li>Diferença entre Web e Internet</li>
+                            <li>Comandos básicos do HTML</li>
+                            <li>Motivos de HTML não ser uma linguagem de programação</li>
+                            <li>Formas de estruturar um código em HTML (tags, estrutura do codigo)</li>
+                            <li>Uso básico do GitHub para envio de tarefas</li>
+                            <li>Uso de Target que endereça links para outra página (ou a mesma)</li>
+                            <li>Uso básico do CSS e comandos de estilização</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
