@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="style.css">
         <title>Hello World</title>
     </head>
-    <body>
+    <body id="body">
         <div class="container" id="comeco">
             <!-- HEADER -->
             <div class="header">
@@ -15,54 +15,57 @@
                     <button class="botao">
                         <a href="#aprendi"><li class="lista">O que aprendi</li></a>
                     </button>
+                    <button class="botao" onclick="darkMode()">
+                        <li class="lista">Modo Noturno</li>
+                    </button>
                 </div>
             </div>
             <!-- CORPO -->
-            <div class="conteudo">
+            <div class="conteudo" id="conteudo">
                 <!-- lista de links -->
-                <div class="sidebar">
-                    <ul>
+                <div class="sidebar" id="sidebar">
+                    <ul id="txtside">
                         <li><h2 class="topicos">Lista de Links</h2></li>
                         <li>
-                            <a href="https://edisciplinas.usp.br/course/view.php?id=96129">Palestrinhas</a>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=96129" id="pal">Palestrinhas</a>
                         </li>
                         <li>
-                            <a href="https://edisciplinas.usp.br/course/view.php?id=97343">Introdução à Computação</a>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=97343" id="int">Introdução à Computação</a>
                         </li>
                         <li>
-                            <a href="https://edisciplinas.usp.br/course/view.php?id=98042">Vetores e Geometria Analítica</a>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=98042" id="vet">Vetores e Geometria Analítica</a>
                         </li>
                         <li>
-                            <a href="https://edisciplinas.usp.br/course/view.php?id=96094">Cálculo Diferencial e Integral</a>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=96094" id="calc">Cálculo Diferencial e Integral</a>
                         </li>
                         <li>
-                            <a href="https://edisciplinas.usp.br/course/view.php?id=99177">Álgebra Booleana</a>
+                            <a href="https://edisciplinas.usp.br/course/view.php?id=99177" id="alg">Álgebra Booleana</a>
                         </li>
                     </ul>
                 </div>
                 <div class="corpo">
                     <!-- CARDS -->
                     <div class="menu">
-                        <div class="cartao">
+                        <div class="cartao" id="card">
                             <a href="#sobre"><img src="img/user.png" alt="" class="icon">
                                 <div class="inscontainer">
-                                    <h4 class="subtitle"><b>Sobre mim</b></h4>
+                                    <h4 class="subtitle" id="subtitle"><b>Sobre mim</b></h4>
                                 </div>
                             </a>
                         </div>
-                        <div class="cartao">
+                        <div class="cartao" id="card2">
                             <a href="#aprendi"><img src="img/book.png" alt="" class="icon">
                                 <div class="inscontainer">
-                                    <h4 class="subtitle"><b>O que aprendi</b></h4>
+                                    <h4 class="subtitle" id="subtitle2"><b>Aprendi</b></h4>
                                 </div>
                             </a>
                         </div>
                     </div>        
                     <!-- CORPO -->
-                    <div class="barra">
+                    <div class="barra" id="barra">
                         <!-- PRIMEIRA SESSÃO -->
                         <h2 id="sobre" class="secaotxt">Sobre mim</h2>
-                        <ul class="topicos">
+                        <ul class="topicos" id="topicos">
                             <li>Meu nome é Rodrigo Michelassi</li>
                             <li>Tenho 19 anos e sou de Caieiras-SP</li>
                             <li>Gosto de basquete, tirar fotos, visitar exposições, moda, etc.</li>
@@ -84,5 +87,6 @@
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

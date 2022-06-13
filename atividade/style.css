@@ -175,10 +175,10 @@ a, a:link, a:hover, a:active, a:focus {
     }
 
     .sidebar {
-        width: 100%;
+        width: 95%;
         margin-top: 50px;
         align-items: center;
-        margin-inline: auto;
+        margin: 0 auto;
         flex-direction: column;
     }
     .sidebar a {
@@ -218,7 +218,7 @@ a, a:link, a:hover, a:active, a:focus {
     }
 
     .sidebar {
-        margin-top: 100px;
+        margin-top: 170px;
     }
 
     .conteudo {
