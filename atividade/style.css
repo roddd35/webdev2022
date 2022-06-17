@@ -1,3 +1,5 @@
+body {margin: 0}
+
 /*inicio do header*/
 .secaotxt {
     text-transform: uppercase;
@@ -11,9 +13,8 @@
 .header {
     width: 100%;
     background-color: #18191A;
-    position: fixed;
-    top: 0px;
-    right: 0px;
+    position: sticky;
+    top: 0;
     padding: 10px;
     display: flex;
 }
@@ -25,7 +26,7 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 150%;
-    
+
 }
 
 .botao {
@@ -47,7 +48,7 @@ a, a:link, a:hover, a:active, a:focus {
 /*início dos cards*/
 .menu {
     width: 100%;
-    
+
 }
 
 .cartao {
@@ -91,7 +92,6 @@ a, a:link, a:hover, a:active, a:focus {
 
 /*corpo do site*/
 .container {
-    margin-top: 4%;
     width: 100%;
     text-align: center;
     flex-wrap: wrap;
@@ -188,7 +188,7 @@ a, a:link, a:hover, a:active, a:focus {
     .corpo {
         width: 100%;
     }
-    
+
     .conteudo {
         display: block;
     }
