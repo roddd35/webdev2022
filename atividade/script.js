@@ -16,11 +16,10 @@ let alg = document.getElementById("alg");
 let int = document.getElementById("int");
 
 function darkMode(){
-    if (modo == 0){ /*se tá no modo claro*/ 
+    if (modo == 0){ /*se tá no modo claro*/
         conteudo.style.background = '#2B2C2E';
         barra.style.background = '#18191A';
         barra.style.color = '#fff';
-        sidebar.style.background = '#18191A';
         subtitle.style.color = '#f0f0f0';
         subtitle2.style.color = '#f0f0f0';
         card.style.background = '#18191A';
@@ -45,7 +44,6 @@ function darkMode(){
         conteudo.style.background = '#fff';
         barra.style.background = '#f2f2f2';
         barra.style.color = '#000';
-        sidebar.style.background = '#f2f2f2';
         subtitle.style.color = '#000';
         subtitle2.style.color = '#000';
         card.style.background = '#fff';
