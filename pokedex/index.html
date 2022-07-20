@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokedex - WebDev2022</title>
+        <link rel=“shortcut icon” href=“images/favicon.ico” type=“image/x-icon”>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="" class="">
+            </div>
+            <div class="input">
+                <input type="text" id="input" placeholder="Nome do Pokemon">
+            </div>    
+            <div>
+                <button onclick="pesquisar()" class="button">Pesquisar</button>
+            </div>
+            <div class="content">    
+                <h2 id="name" class="txt"></h2>
+                <h2 id="id" class="txt"></h2>
+                <h2 id="type" class="txt"></h2>
+                <h2 id="height" class="txt"></h2>
+                <h2 id="weight" class="txt"></h2>
+                <h2 id="ability" class="txt"></h2>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
